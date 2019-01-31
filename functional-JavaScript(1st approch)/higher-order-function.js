@@ -6,6 +6,8 @@ function simpleTraverse(param) {
     console.log(param);
 }
 
+
+//another example
 function mainFunc() {
     return function(name) { //this function is an annonymous function
         return 'Welcome dear '+name;
