@@ -1,12 +1,24 @@
 function summation(a,b) {
-    return a+b;
+    console.log(a+b);
+    
 }
-console.log(summation(40,10));
+summation(40,10);
 
 //Way in ES6
-const sum = (firstNumber, secondNumber) => firstNumber + secondNumber;
-console.log(sum(10, 20));
+//Two arguments
+const sum = (firstNumber, secondNumber) => {
+    console.log(firstNumber + secondNumber);
+}
+sum(10, 20);
 
-const details = name => name;
-console.log(details("Rafi"));
+//one argument
+const details = name => {
+    console.log(name);
+}
+details("Rafi");
 
+//without argument
+const simple = () => {
+    console.log("This is a function without any arguments.");
+}
+simple();
