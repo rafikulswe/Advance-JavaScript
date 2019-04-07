@@ -12,10 +12,8 @@ const sum = (firstNumber, secondNumber) => {
 sum(10, 20);
 
 //one argument
-const details = name => {
-    console.log(name);
-}
-details("Rafi");
+const details = name => name
+console.log(details("Rafi"));
 
 //without argument
 const simple = () => {
