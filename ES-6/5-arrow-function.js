@@ -12,7 +12,7 @@ const sum = (firstNumber, secondNumber) => {
 sum(10, 20);
 
 //one argument
-const details = name => name
+const details = name => name //it's also a function with a single parameter
 console.log(details("Rafi"));
 
 //without argument

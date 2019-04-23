@@ -10,7 +10,6 @@ function Demo() {
         console.log(age);
     }
     // console.log(age); //let value can not retribe outside the let block.
-
 }
 Demo();
 
